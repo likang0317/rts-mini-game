@@ -1,5 +1,11 @@
 # 轩辕 RTS · UI 方案 A 图廊
 
+**在线预览**（仓库已转为公开，可直接在浏览器打开，无需登录）
+
+- 入口页：<https://likang0317.github.io/rts-mini-game/docs/ui/>
+- 交互稿：<https://likang0317.github.io/rts-mini-game/docs/ui/ui-a.html>
+- 六态直达：[空镜](https://likang0317.github.io/rts-mini-game/docs/ui/ui-a.html#state=empty) · [农人](https://likang0317.github.io/rts-mini-game/docs/ui/ui-a.html#state=peasant) · [营造](https://likang0317.github.io/rts-mini-game/docs/ui/ui-a.html#state=build) · [祭祀](https://likang0317.github.io/rts-mini-game/docs/ui/ui-a.html#state=altar) · [交战](https://likang0317.github.io/rts-mini-game/docs/ui/ui-a.html#state=combat) · [受禅](https://likang0317.github.io/rts-mini-game/docs/ui/ui-a.html#state=victory)
+
 中国三皇五帝题材 · 浏览器 2D RTS · 高保真 UI 设计稿（1920×1080 基准）
 
 > 方案 A：经典对称式（星际争霸 II / 帝国时代血统）——底部中央命令台、左下小地图、左下资源与德望。
