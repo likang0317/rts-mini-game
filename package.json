@@ -1,0 +1,19 @@
+{
+  "name": "rts-mini-game",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "RTS小游戏",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "phaser": "^3.90.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
+  }
+}
