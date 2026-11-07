@@ -130,6 +130,7 @@ hr{border:0;border-top:1px solid var(--line);margin:2.5em 0}
   padding-bottom:var(--safe-bottom);
 }
 body.nav-open .sidebar{transform:none;box-shadow:var(--shadow)}
+html.nav-open{overflow:hidden}
 .sidebar-head{padding:18px 18px 12px;border-bottom:1px solid var(--line);position:relative}
 .book-title{font-size:15px;font-weight:700;line-height:1.5}
 .book-sub{font-size:12px;color:var(--muted);margin-top:4px;font-family:var(--font-mono);letter-spacing:.02em}
@@ -2451,6 +2452,7 @@ replay.checkpoints.push({ tick: state.tick, hash: hashState(state) });
 
   function setNav(open) {
     body.classList.toggle('nav-open', open);
+    document.documentElement.classList.toggle('nav-open', open);
     if (menuBtn) menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
     if (scrim) scrim.hidden = !open;
     if (open) setTimeout(scrollActiveNav, 280);
